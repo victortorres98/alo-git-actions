@@ -1,7 +1,8 @@
 name: Exemplo de fluxo de trabalho
 
 on: 
-  workflow_dispatch:
+  push:
+    branches: [main]
 
 jobs:
   acao_inicial_job:
